@@ -28,7 +28,7 @@ def fibonnaci_input():
     
     while True:
         try:
-            n = int(input("Please enter a number greater than zero:"))
+            n = int(input("Please enter a number greater than two:"))
         except ValueError:
             print("Sorry, I didn't understand that.")
             continue
